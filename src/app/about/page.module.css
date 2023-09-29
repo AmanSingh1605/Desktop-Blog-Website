@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imageContainer {
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+.img {
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+.imageText {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #53c28b;
+  color: white;
+}
+.description {
+  display: flex;
+  gap: 40px;
+}
+.left,
+.right {
+  flex: 1;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftTitle,
+.rightTitle {
+  margin-bottom: 10px;
+}
+.left p,
+.right p {
+  padding: 10px 5px;
+  font-weight: 300;
+}
+.right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding:0 0 20px 20px;
+}

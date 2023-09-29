@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subTitle {
+  font-weight: 500;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.subContainer .title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blog {
+  display: flex;
+  gap: 40px;
+}
+.blogImg {
+  flex: 1;
+  position: relative;
+  height: 200px;
+}
+.blogImg img {
+  object-fit: cover;
+}
+.blogContent {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blogTitle {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.blogDesc {
+  font-size: 16px;
+  line-height: 20px;
+}
+.subContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.inputContainer label {
+  font-weight: 700;
+}
+.inputContainer input,
+.inputContainer textarea {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 10px;
+  scrollbar-width: 0;
+  min-width: 300px;
+}
+.inputContainer textarea{
+  min-width: 400px;
+}
+.subContainer form button{
+  padding: 10px;
+  background-color: #53c28b;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+}

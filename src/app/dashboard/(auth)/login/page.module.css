@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{ 
+    font-size: 36px;
+    margin-bottom: 30px;
+
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+
+}
+.container form input{
+    background-color: transparent;
+    color: #bbb;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.inputContainer{
+    border: 1px solid white;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.imgContainer{
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+}
+.imgContainer img{
+    object-fit: contain;
+}
+.container form button{
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.googleButton{
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.text{
+    font-style:italic;
+    font-size: 12px;
+    align-items: right;
+    margin: 5px 0;
+}

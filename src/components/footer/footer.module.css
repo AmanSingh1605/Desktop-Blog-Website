@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding : 20px 0 10px 0;
+}
+.left{
+    font-size: small;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    cursor: pointer;
+    opacity: 0.6;
+}

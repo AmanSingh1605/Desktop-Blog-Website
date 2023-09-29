@@ -1,0 +1,13 @@
+
+.container button{
+    padding: 20px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    color: #fff;
+}
+.container button:hover{
+    background-color: #6ace9c;
+}

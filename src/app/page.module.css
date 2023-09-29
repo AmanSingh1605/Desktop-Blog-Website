@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  /* justify-content: space-between; */
+}
+
+.titleText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.titleText h1 {
+  font-size: 72px;
+  background: linear-gradient(to bottom, #194c33, #bbb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imageContainer {
+  flex: 1;
+}
+.imageContainer img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  animation: move 2.5s ease infinite alternate;
+}
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
